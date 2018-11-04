@@ -12,3 +12,5 @@ tests/out
 *.out
 *.toc
 hidden
+
+_*.sh

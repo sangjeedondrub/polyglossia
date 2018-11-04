@@ -54,12 +54,12 @@
 % from the China Tibetology Research Center
 \def\captionstibetan{%
    %\def\refname{}%
-   \def\abstractname{གནད་བསྡུས།}%
+   \def\abstractname{ནང་དོན་གནད་བསྡུས།}%
    \def\bibname{དཔེ་ཆའི་ཐོ་གཞུང་།}% or dpe deb kyi re'u mig?
    \def\prefacename{དཔེ་དེབ་ཀྱི་གླེང་བརྗོད།}% or gleng brjod 'god pa or ngo sprod?
    \def\chaptername{ལེའུ་}%
    \def\appendixname{ཞར་བྱུང་།}%
-   \def\contentsname{དཀར་ཆག།}%
+   \def\contentsname{དཀར་ཆག}%
    %\def\listfigurename{}%
    %\def\listtablename{}%
    \def\indexname{གསུལ་བྱང་།}%
@@ -96,7 +96,7 @@
    %\def\today{\tibetannumber\day /\tibetannumber\day /\tibetannumber\year}%
    \def\today{\tibetannumber\day །\tibetannumber\month །\tibetannumber\year}%
    % this is more litterate, but longer
-   %\def\today{སྤྱི་ལོ་\tibetannumber\year ་སྤྱི་\tibetan@month{}་ད་རེས་\tibetan@daynum{}།}%  
+   \def\today{\tibetannumber\year ལོའི་ཟླ\tibetannumber\month པའི་ཚེས\tibetannumber\day}%  
 }
 
 \def\tibetandigits#1{\expandafter\@tibetan@digits #1@}
